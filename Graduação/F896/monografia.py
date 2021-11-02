@@ -61,7 +61,6 @@ def b(s,m):
     x = beta(s,m)*(3-beta(s,m)**2)
     return x
 
-# razao = read_csv('razao.csv', delimiter = '\t', decimal = ',')
 razao = read_csv('razao.csv')
 
 
